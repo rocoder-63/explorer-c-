@@ -1,0 +1,42 @@
+name: C++ app - CI Build and Test
+
+on:
+  pull_request:
+    branches:
+      - main  # Trigger on pull requests to 'main' branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # You can change this to your preferred OS (e.g., 'windows-latest', 'macos-latest')
+
+    steps:
+      # Step 1: Checkout code
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Step 2: Set up C++ environment (Install necessary compilers and dependencies)
+      - name: Set up C++ environment
+        run: |
+          sudo apt update
+          sudo apt install -y build-essential  # Installing GCC and other build tools (for Ubuntu)
+
+      # Step 3: Build the C++ code using make or CMake (Modify based on your build system)
+      - name: Build C++ code
+        run: |
+          # Assuming you're using 'make' as your build system. Replace it with your actual build steps
+          make  # Or `cmake` if you're using CMake
+
+      # Step 4: Check for build success (return code 0)
+      - name: Verify build success
+        run: |
+          if [ $? -ne 0 ]; then
+            echo "Build failed with return code $?"  # This will make the workflow fail if the build fails
+            exit 1
+          fi
+
+      # Optionally: Run tests after the build (if you have tests set up)
+      - name: Run tests
+        run: |
+          # Run your tests here (e.g., using a C++ testing framework like Google Test or Catch2)
+          ./run_tests.sh  # Replace with your actual test script or commands
+
