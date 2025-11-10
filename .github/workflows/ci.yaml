@@ -25,6 +25,7 @@ jobs:
         run: |
           # Assuming you're using 'make' as your build system. Replace it with your actual build steps
           # make  # Or `cmake` if you're using CMake
+          cd Task1
           cmake .
           cmake --build .
 
