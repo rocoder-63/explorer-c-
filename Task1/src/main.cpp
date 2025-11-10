@@ -2,7 +2,7 @@
 #include <string>
 
 int main(int argc, char** argv) {
-    std::cout << "Hello from Project_Conquer - Task #1\n";
+    std::cout << "Hello from Project_Conquer <>>> - Task #1\n";
     if (argc > 1) {
         std::cout << "Received argument: " << argv[1] << "\n";
     } else {
