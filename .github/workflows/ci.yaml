@@ -42,7 +42,7 @@ jobs:
         run: |
           # Run your tests here (e.g., using a C++ testing framework like Google Test or Catch2)
           cd Task1/tests
-          chmod +x
+          chmod +x ./run_tests.sh
           ./run_tests.sh  # Replace with your actual test script or commands
           if [ $? -ne 0 ]; then
             echo "Running tests failed with return code $?"  # This will make the workflow fail if the test fails
