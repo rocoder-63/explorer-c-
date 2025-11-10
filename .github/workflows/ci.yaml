@@ -24,7 +24,9 @@ jobs:
       - name: Build C++ code
         run: |
           # Assuming you're using 'make' as your build system. Replace it with your actual build steps
-          make  # Or `cmake` if you're using CMake
+          # make  # Or `cmake` if you're using CMake
+          cmake .
+          cmake --build .
 
       # Step 4: Check for build success (return code 0)
       - name: Verify build success
