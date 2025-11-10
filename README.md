@@ -1,2 +1,2 @@
 # explorer-c-
-Learn C++
+Sample git repo code
