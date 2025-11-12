@@ -1,0 +1,71 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "CMake: Configure",
+            "command": "cmake",
+            "args": [
+                "-B",
+                "${workspaceFolder}/Task1/build",
+                "-S",
+                "${workspaceFolder}/Task1",
+                "-G",
+                "Ninja"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/Task1"
+            },
+            "group": {
+                "kind": "build"
+            },
+            "detail": "Configure CMake project (requires CMake & Ninja installed)"
+        },
+        {
+            "type": "shell",
+            "label": "CMake: Build",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "${workspaceFolder}/Task1/build"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/Task1"
+            },
+            "dependsOn": [
+                "CMake: Configure"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Build the CMake project"
+        },
+        {
+            "type": "shell",
+            "label": "CMake: Configure & Build",
+            "command": "cmake",
+            "args": [
+                "-B",
+                "${workspaceFolder}/Task1/build",
+                "-S",
+                "${workspaceFolder}/Task1",
+                "-G",
+                "Ninja"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/Task1"
+            },
+            "dependsOn": [
+                "CMake: Configure"
+            ],
+            "group": {
+                "kind": "build"
+            },
+            "detail": "Configure and build in one task"
+        }
+    ],
+    "version": "2.0.0"
+}

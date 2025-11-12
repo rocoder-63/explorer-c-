@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "../Task1"
+    "cmake.sourceDirectory": "../Task1",
+    "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/g++.exe"
 }
