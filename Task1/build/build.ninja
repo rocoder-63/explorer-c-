@@ -47,8 +47,49 @@ build cmake_object_order_depends_target_task1: phony || .
 build CMakeFiles/task1.dir/src/main.cpp.obj: CXX_COMPILER__task1_unscanned_ D$:/roshith_learn/c++/projects/explorer-c-/Task1/src/main.cpp || cmake_object_order_depends_target_task1
   DEP_FILE = CMakeFiles\task1.dir\src\main.cpp.obj.d
   FLAGS = -std=gnu++17
+  INCLUDES = -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/settings_manager -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/singleton -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/task -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/explorer
   OBJECT_DIR = CMakeFiles\task1.dir
   OBJECT_FILE_DIR = CMakeFiles\task1.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\task1.dir
+
+build CMakeFiles/task1.dir/src/singleton/singleton_main.cpp.obj: CXX_COMPILER__task1_unscanned_ D$:/roshith_learn/c++/projects/explorer-c-/Task1/src/singleton/singleton_main.cpp || cmake_object_order_depends_target_task1
+  DEP_FILE = CMakeFiles\task1.dir\src\singleton\singleton_main.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/settings_manager -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/singleton -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/task -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/explorer
+  OBJECT_DIR = CMakeFiles\task1.dir
+  OBJECT_FILE_DIR = CMakeFiles\task1.dir\src\singleton
+  TARGET_SUPPORT_DIR = CMakeFiles\task1.dir
+
+build CMakeFiles/task1.dir/src/settings_manager/settings_manager.cpp.obj: CXX_COMPILER__task1_unscanned_ D$:/roshith_learn/c++/projects/explorer-c-/Task1/src/settings_manager/settings_manager.cpp || cmake_object_order_depends_target_task1
+  DEP_FILE = CMakeFiles\task1.dir\src\settings_manager\settings_manager.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/settings_manager -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/singleton -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/task -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/explorer
+  OBJECT_DIR = CMakeFiles\task1.dir
+  OBJECT_FILE_DIR = CMakeFiles\task1.dir\src\settings_manager
+  TARGET_SUPPORT_DIR = CMakeFiles\task1.dir
+
+build CMakeFiles/task1.dir/src/task/task_base.cpp.obj: CXX_COMPILER__task1_unscanned_ D$:/roshith_learn/c++/projects/explorer-c-/Task1/src/task/task_base.cpp || cmake_object_order_depends_target_task1
+  DEP_FILE = CMakeFiles\task1.dir\src\task\task_base.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/settings_manager -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/singleton -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/task -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/explorer
+  OBJECT_DIR = CMakeFiles\task1.dir
+  OBJECT_FILE_DIR = CMakeFiles\task1.dir\src\task
+  TARGET_SUPPORT_DIR = CMakeFiles\task1.dir
+
+build CMakeFiles/task1.dir/src/explorer/explorer.cpp.obj: CXX_COMPILER__task1_unscanned_ D$:/roshith_learn/c++/projects/explorer-c-/Task1/src/explorer/explorer.cpp || cmake_object_order_depends_target_task1
+  DEP_FILE = CMakeFiles\task1.dir\src\explorer\explorer.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/settings_manager -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/singleton -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/task -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/explorer
+  OBJECT_DIR = CMakeFiles\task1.dir
+  OBJECT_FILE_DIR = CMakeFiles\task1.dir\src\explorer
+  TARGET_SUPPORT_DIR = CMakeFiles\task1.dir
+
+build CMakeFiles/task1.dir/src/task/audio_task.cpp.obj: CXX_COMPILER__task1_unscanned_ D$:/roshith_learn/c++/projects/explorer-c-/Task1/src/task/audio_task.cpp || cmake_object_order_depends_target_task1
+  DEP_FILE = CMakeFiles\task1.dir\src\task\audio_task.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/settings_manager -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/singleton -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/task -ID:/roshith_learn/c++/projects/explorer-c-/Task1/src/explorer
+  OBJECT_DIR = CMakeFiles\task1.dir
+  OBJECT_FILE_DIR = CMakeFiles\task1.dir\src\task
   TARGET_SUPPORT_DIR = CMakeFiles\task1.dir
 
 
@@ -59,7 +100,7 @@ build CMakeFiles/task1.dir/src/main.cpp.obj: CXX_COMPILER__task1_unscanned_ D$:/
 #############################################
 # Link the executable task1.exe
 
-build task1.exe: CXX_EXECUTABLE_LINKER__task1_ CMakeFiles/task1.dir/src/main.cpp.obj
+build task1.exe: CXX_EXECUTABLE_LINKER__task1_ CMakeFiles/task1.dir/src/main.cpp.obj CMakeFiles/task1.dir/src/singleton/singleton_main.cpp.obj CMakeFiles/task1.dir/src/settings_manager/settings_manager.cpp.obj CMakeFiles/task1.dir/src/task/task_base.cpp.obj CMakeFiles/task1.dir/src/explorer/explorer.cpp.obj CMakeFiles/task1.dir/src/task/audio_task.cpp.obj
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\task1.dir
   POST_BUILD = cd .

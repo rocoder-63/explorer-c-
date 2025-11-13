@@ -1,3 +1,12 @@
 # ninja log v7
-55	1748	7845927940684373	CMakeFiles/task1.dir/src/main.cpp.obj	b67ebb27499f0ddd
-1754	2704	7845927957589619	task1.exe	d25ae158d3576ded
+1085	46581	7847587336130240	CMakeFiles/task1.dir/src/main.cpp.obj	3dded6bc2db1c71d
+46583	49392	7847587791209831	task1.exe	af3bdc5d2fee29da
+2219	51800	7847506974645204	CMakeFiles/task1.dir/src/singleton/singleton_main.cpp.obj	d77ec334b7cb0c7a
+1149	18580	7847570141412960	CMakeFiles/task1.dir/src/settings_manager/settings_manager.cpp.obj	c3859729e8902a7d
+2321	51783	7847506975665341	CMakeFiles/task1.dir/src/task/audio_task.cpp.obj	326b39751246301f
+2250	51795	7847506974965292	CMakeFiles/task1.dir/src/task/task_base.cpp.obj	634bce7bc85616be
+28	27074	7847573188692757	CMakeFiles/task1.dir/src/explorer/explorer.cpp.obj	3cbcf7ae59674cd
+1133	7637	7847590247379118	CMakeFiles/task1.dir/src/main.cpp.obj	3dded6bc2db1c71d
+7680	10149	7847590312848788	task1.exe	af3bdc5d2fee29da
+8	22343	7847591138969224	CMakeFiles/task1.dir/src/main.cpp.obj	3dded6bc2db1c71d
+22344	23733	7847591362325578	task1.exe	af3bdc5d2fee29da
