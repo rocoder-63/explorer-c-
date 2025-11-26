@@ -10,6 +10,8 @@ using namespace std;
 
 #include "task_base.hpp"
 
+namespace settings_manager_space {
+
 class settings_manager {
     
     std::string settings_type; // TO be changed
@@ -40,4 +42,7 @@ class settings_manager {
     void addObserver(std::shared_ptr<task_base> observer);
     void removeObserver(std::shared_ptr<task_base> observer);
 };
+
+} // settings_manager_space
+
 #endif // SETTINGS_MANAGER_HPP

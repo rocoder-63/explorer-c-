@@ -53,6 +53,17 @@
         "typeinfo": "cpp",
         "variant": "cpp",
         "set": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "cstdarg": "cpp",
+        "cstring": "cpp",
+        "chrono": "cpp",
+        "condition_variable": "cpp",
+        "ratio": "cpp",
+        "future": "cpp",
+        "mutex": "cpp",
+        "semaphore": "cpp",
+        "stop_token": "cpp",
+        "thread": "cpp",
+        "cinttypes": "cpp"
     }
 }

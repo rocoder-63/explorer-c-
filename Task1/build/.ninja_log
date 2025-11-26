@@ -1,12 +1,17 @@
-# ninja log v7
-1085	46581	7847587336130240	CMakeFiles/task1.dir/src/main.cpp.obj	3dded6bc2db1c71d
-46583	49392	7847587791209831	task1.exe	af3bdc5d2fee29da
-2219	51800	7847506974645204	CMakeFiles/task1.dir/src/singleton/singleton_main.cpp.obj	d77ec334b7cb0c7a
-1149	18580	7847570141412960	CMakeFiles/task1.dir/src/settings_manager/settings_manager.cpp.obj	c3859729e8902a7d
-2321	51783	7847506975665341	CMakeFiles/task1.dir/src/task/audio_task.cpp.obj	326b39751246301f
-2250	51795	7847506974965292	CMakeFiles/task1.dir/src/task/task_base.cpp.obj	634bce7bc85616be
+# ninja log v5
+2	255	1763995145572341061	CMakeFiles/task1.dir/src/settings_manager/settings_manager.cpp.o	b125558ab95873c9
+455	516	1764162619381254671	task1	fdf0834738233ba7
 28	27074	7847573188692757	CMakeFiles/task1.dir/src/explorer/explorer.cpp.obj	3cbcf7ae59674cd
-1133	7637	7847590247379118	CMakeFiles/task1.dir/src/main.cpp.obj	3dded6bc2db1c71d
-7680	10149	7847590312848788	task1.exe	af3bdc5d2fee29da
-8	22343	7847591138969224	CMakeFiles/task1.dir/src/main.cpp.obj	3dded6bc2db1c71d
+2250	51795	7847506974965292	CMakeFiles/task1.dir/src/task/task_base.cpp.obj	634bce7bc85616be
+1149	18580	7847570141412960	CMakeFiles/task1.dir/src/settings_manager/settings_manager.cpp.obj	c3859729e8902a7d
+2219	51800	7847506974645204	CMakeFiles/task1.dir/src/singleton/singleton_main.cpp.obj	d77ec334b7cb0c7a
+2321	51783	7847506975665341	CMakeFiles/task1.dir/src/task/audio_task.cpp.obj	326b39751246301f
 22344	23733	7847591362325578	task1.exe	af3bdc5d2fee29da
+8	22343	7847591138969224	CMakeFiles/task1.dir/src/main.cpp.obj	3dded6bc2db1c71d
+3	281	1763995145598341300	CMakeFiles/task1.dir/src/explorer/explorer.cpp.o	8408dd9b61e3dea3
+3	20	1763995145338338910	CMakeFiles/task1.dir/src/task/audio_task.cpp.o	217c8dce7cabde91
+2	17	1763995145335338883	CMakeFiles/task1.dir/src/task/task_base.cpp.o	954c4c4cde09df5e
+1	455	1764162619320253526	CMakeFiles/task1.dir/src/main.cpp.o	de267336b05a780a
+1	142	1763995145460340031	CMakeFiles/task1.dir/src/singleton/singleton_main.cpp.o	71533e1b7f331da3
+1	466	1764167420256080535	CMakeFiles/task1.dir/src/main.cpp.o	de267336b05a780a
+466	516	1764167420306081593	task1	fdf0834738233ba7

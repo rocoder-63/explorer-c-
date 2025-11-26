@@ -1,5 +1,6 @@
 #include "settings_manager.hpp"
 
+namespace settings_manager_space{
 void settings_manager::setSettingsType(const std::string& type) {
         settings_type = type;
 }
@@ -29,3 +30,4 @@ void settings_manager::addObserver(std::shared_ptr<task_base> observer){
 void settings_manager::removeObserver(std::shared_ptr<task_base> observer){
     observers.remove(observer);
 }
+} // settings_manager_space

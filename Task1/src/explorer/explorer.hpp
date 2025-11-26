@@ -9,6 +9,8 @@ using namespace std;
 #include "task_base.hpp"
 #include "settings_manager.hpp"
 
+namespace sm = settings_manager_space;
+
 class explorer : public task_base, public std::enable_shared_from_this<explorer> {
 
     std::map<std::string, std::shared_ptr<task_base>> tasks;
@@ -25,13 +27,13 @@ public:
     void init() {
 
         // Register for events
-        settings_manager::getInstance().addObserver(shared_from_this());
+        sm::settings_manager::getInstance().addObserver(shared_from_this());
     }
 
     void deinit() {
 
         // Unregister for events
-        settings_manager::getInstance().removeObserver(shared_from_this());
+        sm::settings_manager::getInstance().removeObserver(shared_from_this());
     }
 
     void execute() override {

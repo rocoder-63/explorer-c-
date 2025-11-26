@@ -5,7 +5,7 @@ int explorer::addTask(std::shared_ptr<task_base> task_ptr){
 
     // Register for events
     if (task_ptr->task_options.options[TASK_PROPERTY_OBSERVE_SYS_SETTINGS] == true){
-        settings_manager::getInstance().addObserver(task_ptr);
+        sm::settings_manager::getInstance().addObserver(task_ptr);
     }
 
     return 0;
